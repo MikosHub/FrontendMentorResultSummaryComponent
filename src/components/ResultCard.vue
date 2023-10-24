@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col h-full lg:flex-row lg:h-1/2">
-    <div id="leftSide" class="flex flex-col items-center bg-gradient-to-b from-gradient-start to-gradient-end  rounded-b-3xl p-4 text-center">
+  <div class="flex flex-col h-full lg:flex-row lg:h-1/2 lg:max-w-2xl lg:shadow-xl lg:rounded-3xl">
+    <div id="leftSide" class="flex flex-col items-center bg-gradient-to-b from-gradient-start to-gradient-end  rounded-b-3xl p-4 text-center lg:rounded-3xl lg:w-1/2">
       <h1 class="my-3 text-lavender font-semibold text-lg">Your Result</h1>
-      <div class="bg-gradient-to-b from-circle-start to-circle-end w-32 h-32 p-4 rounded-full">
+      <div class="bg-gradient-to-b from-circle-start to-circle-end w-36 h-36 p-4 rounded-full lg:w-40 lg:h-40 lg:p-8 lg:my-6">
         <div class="text-white text-6xl font-bold py-1 mt-1">{{ totalScore }}</div>
         <div class="text-lavender font-semibold">of {{ maxScore }}</div>
       </div>
